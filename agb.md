@@ -5,7 +5,9 @@
 Diese Nutzungsbedingungen regeln die Nutzung der Software-as-a-Service-Plattform **Dispocall** einschließlich des optionalen Telefon-KI-Moduls **Voice AI** durch Taxi-Unternehmen (im Folgenden „Kunde"). Die Plattform wird bereitgestellt durch
 
 **Robin Eckel**
+
 **Am Berg 2, 35066 Frankenberg**
+
 **E-Mail: Support@dispocall.de**
 
 – im Folgenden „Anbieter" oder „Betreiber" –.
