@@ -239,7 +239,7 @@ d) Insolvenz des Kunden.
 
 (1) Der Anbieter setzt zur Erbringung seiner Leistungen Unterauftragnehmer ein. Die aktuelle Liste der Unterauftragsverarbeiter ist Bestandteil der AVV (Anlage 4) und umfasst insbesondere:
 
-- **Google Ireland Ltd.** — (a) Firebase / Google Cloud (europe-west3 Frankfurt) für Datenbank, Authentifizierung und Cloud KMS; (b) Google Cloud Text-to-Speech (Chirp 3 HD, EU-Multi-Region) für die Sprach-Ausgabe der Voice AI, alternativ zur lokalen TTS-Inferenz
+- **Google Ireland Ltd.** — (a) Firebase / Google Cloud (europe-west3 Frankfurt) für Datenbank, Authentifizierung und Cloud KMS; (b) Google Cloud Text-to-Speech (Chirp 3 HD, EU-Multi-Region) für die Sprach-Ausgabe der Voice AI, alternativ zur lokalen TTS-Inferenz; (c) Google Cloud Storage (europe-west3 Frankfurt) zur 30-tägigen Bereitstellung des bei Vertragsende erzeugten Daten-Export-ZIPs (siehe § 13)
 - **Mistral AI SAS** (Paris, Frankreich) — LLM-Inferenz für die Voice AI, alternativ zur lokalen LLM-Inferenz; **kein** Training mit übermittelten Daten gemäß Mistral-Nutzungsbedingungen für zahlende Kunden
 - **Easybell GmbH** (Deutschland) — SIP-Telefonie-Provider für die Inbound-Rufnummer der Voice AI
 - **Sendinblue SAS** („Brevo", Paris, Frankreich) — Versand transaktionaler E-Mails (Bestätigungen, Lösch-Anträge, Daten-Export-Links); ausschließlich EU-Server; keine Verwendung der übermittelten Empfänger- oder Inhaltsdaten zu eigenen Marketing-Zwecken oder zum Training
