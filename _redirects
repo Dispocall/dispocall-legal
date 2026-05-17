@@ -1,0 +1,16 @@
+# Cloudflare Pages _redirects — saubere URLs ohne .html-Endung.
+# Format: <quelle> <ziel> <status>
+# Quelle: was der User in die Adressleiste tippt (oder die App aufruft)
+# Ziel: welche tatsächliche Datei ausgeliefert wird
+# Status 200 = Rewrite (URL bleibt sauber im Browser), 301 = Redirect
+
+/datenschutz   /datenschutz.html   200
+/agb           /agb.html           200
+/impressum     /impressum.html     200
+
+# Legacy/alternative Schreibweisen → permanente Weiterleitung auf
+# die kanonische URL. Spart App-Updates, falls wir früher mal andere
+# Pfade kommuniziert haben.
+/privacy       /datenschutz        301
+/terms         /agb                301
+/imprint       /impressum          301

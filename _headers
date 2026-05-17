@@ -1,0 +1,24 @@
+# Cloudflare Pages _headers — pro Pfad Custom-Header.
+# Wichtig: .md-Files müssen als text/markdown ausgeliefert werden,
+# sonst hängt sich der Browser an "octet-stream" auf und marked.js
+# bekommt einen leeren String.
+
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+  Cache-Control: public, max-age=300, must-revalidate
+
+# CSS und HTML 5 Minuten cachen — kurz genug, dass Doku-Updates
+# schnell sichtbar werden, lang genug für sinnvolles Caching.
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/style.css
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Sicherheits-Header für die ganze Seite — schaden nichts und
+# verbessern den Mozilla-Observatory-Score.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
