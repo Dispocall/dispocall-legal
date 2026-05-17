@@ -242,6 +242,7 @@ d) Insolvenz des Kunden.
 - **Google Ireland Ltd.** — (a) Firebase / Google Cloud (europe-west3 Frankfurt) für Datenbank, Authentifizierung und Cloud KMS; (b) Google Cloud Text-to-Speech (Chirp 3 HD, EU-Multi-Region) für die Sprach-Ausgabe der Voice AI, alternativ zur lokalen TTS-Inferenz
 - **Mistral AI SAS** (Paris, Frankreich) — LLM-Inferenz für die Voice AI, alternativ zur lokalen LLM-Inferenz; **kein** Training mit übermittelten Daten gemäß Mistral-Nutzungsbedingungen für zahlende Kunden
 - **Easybell GmbH** (Deutschland) — SIP-Telefonie-Provider für die Inbound-Rufnummer der Voice AI
+- **Sendinblue SAS** („Brevo", Paris, Frankreich) — Versand transaktionaler E-Mails (Bestätigungen, Lösch-Anträge, Daten-Export-Links); ausschließlich EU-Server; keine Verwendung der übermittelten Empfänger- oder Inhaltsdaten zu eigenen Marketing-Zwecken oder zum Training
 
 Alle Verarbeitungen finden in der Europäischen Union statt; es findet keine Drittlandübermittlung im Sinne der Art. 44 ff. DSGVO statt.
 
