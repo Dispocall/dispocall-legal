@@ -15,7 +15,9 @@ Die Dispocall App wird als Dienstleistung an Taxi-Unternehmen bereitgestellt. Je
 ## 1. Verantwortliche Stelle für den Plattformbetrieb
 
 **Robin Eckel**
+
 **Am Berg 2, 35066 Frankenberg**
+
 **E-Mail: Support@dispocall.de**
 
 Ein Datenschutzbeauftragter ist nicht bestellt, weil die gesetzlichen Schwellenwerte gemäß § 38 BDSG / Art. 37 DSGVO nicht erreicht werden. Anfragen richten Sie bitte an die oben genannte E-Mail-Adresse.
