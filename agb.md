@@ -1,6 +1,6 @@
 # Allgemeine Geschäftsbedingungen (AGB) für die Nutzung der Dispocall-Plattform
 
-*Stand: Mai 2026*
+*Stand: 26.05.2026*
 
 Diese Nutzungsbedingungen regeln die Nutzung der Software-as-a-Service-Plattform **Dispocall** einschließlich des optionalen Telefon-KI-Moduls **Voice AI** durch Taxi-Unternehmen (im Folgenden „Kunde"). Die Plattform wird bereitgestellt durch
 
@@ -12,7 +12,7 @@ Diese Nutzungsbedingungen regeln die Nutzung der Software-as-a-Service-Plattform
 
 – im Folgenden „Anbieter" oder „Betreiber" –.
 
-Die AGB gelten ausschließlich gegenüber Unternehmen im Sinne von § 14 BGB. Verbraucher sind nicht Vertragspartner.
+Die AGB gelten ausschließlich gegenüber Unternehmen im Sinne von § 14 BGB. Verbraucher sind nicht Vertragspartner. **Alle in der Preisliste oder im individuellen Angebot ausgewiesenen Preise verstehen sich als Nettopreise zuzüglich der gesetzlichen Umsatzsteuer.**
 
 ---
 
@@ -37,11 +37,17 @@ Die AGB gelten ausschließlich gegenüber Unternehmen im Sinne von § 14 BGB. Ve
 
 (1) Die Nutzung setzt die Registrierung eines Firmen-Accounts voraus. Der Kunde macht bei der Registrierung wahrheitsgemäße Angaben (Firmenname, Firmensitz-PLZ, E-Mail-Adresse, Passwort).
 
-(2) Mit erfolgreicher Registrierung und Bestätigung dieser AGB sowie der Datenschutzerklärung kommt zwischen dem Kunden und dem Anbieter ein Nutzungsvertrag zustande.
+(2) Der Vertragsschluss erfolgt wahlweise
+
+a) durch **schriftliche Annahme** eines vom Anbieter übermittelten individuellen Nutzungsvertrages (Offline-Weg: Unterschrift in Papier- oder elektronischer Form, Rücksendung per E-Mail oder Post), oder
+
+b) durch **Online-Bestellung** auf einer vom Anbieter bereitgestellten Bestellseite, wobei der Kunde vor Abgabe seiner Bestellung die zur Geltung gelangenden Vertragsunterlagen (Nutzungsvertrag, diese AGB, Preisliste, Datenschutzerklärung, AVV) zur Kenntnis nimmt und durch separates Anklicken der entsprechenden Kontrollkästchen sowie der mit „Jetzt zahlungspflichtig bestellen" (oder einer gleichwertigen, eindeutigen Formulierung) gekennzeichneten Schaltfläche annimmt. Der Vertragsschluss kommt mit Zugang der Bestätigungs-E-Mail des Anbieters beim Kunden zustande; der Anbieter behält sich vor, die Bestellung innerhalb von zehn Werktagen aus sachlichen Gründen (z. B. fehlende Bonität, unzureichende Angaben, technische Nicht-Versorgbarkeit) abzulehnen.
 
 (3) Ein Anspruch auf Vertragsschluss besteht nicht. Der Anbieter behält sich vor, die Registrierung ohne Angabe von Gründen abzulehnen.
 
 (4) Vor der ersten produktiven Nutzung wird zusätzlich eine **Auftragsverarbeitungsvereinbarung (AVV)** gemäß Art. 28 DSGVO in Textform geschlossen. Ohne abgeschlossene AVV darf der Kunde keine personenbezogenen Daten Dritter (insbesondere Fahrgast-Daten) über die Plattform verarbeiten. Die AVV ist Bestandteil des Vertrages.
+
+(5) Der Vertragstext (Nutzungsvertrag, AGB, Preisliste, Datenschutzerklärung, AVV in der bei Vertragsschluss geltenden Fassung) wird vom Anbieter gespeichert und dem Kunden auf Anfrage in Textform übersandt. Bei Online-Vertragsschluss erhält der Kunde unmittelbar nach Abschluss eine Bestätigungs-E-Mail, der die Vertragsunterlagen als PDF beigefügt sind.
 
 ---
 
@@ -49,9 +55,9 @@ Die AGB gelten ausschließlich gegenüber Unternehmen im Sinne von § 14 BGB. Ve
 
 (1) Der Anbieter stellt die Plattform mit einer angestrebten Verfügbarkeit von **99,5 % im Jahresmittel** zur Verfügung. Geplante Wartungsfenster werden, soweit möglich, außerhalb der Hauptbetriebszeiten durchgeführt und mindestens 24 Stunden im Voraus angekündigt. **Abweichungen für Early-Access-Kunden regelt § 17.**
 
-(2) Nicht eingerechnet werden Ausfälle, die auf höherer Gewalt beruhen, auf Störungen der zugrundeliegenden Infrastruktur Dritter (insbesondere Google Cloud, Easybell, Mistral AI), auf Internetstörungen auf Seiten des Kunden oder auf unsachgemäßer Nutzung.
+(2) Nicht eingerechnet werden Ausfälle, die auf höherer Gewalt beruhen, auf Störungen der zugrundeliegenden Infrastruktur Dritter (insbesondere Google Cloud, Easybell, Mistral AI, Deepgram), auf Internetstörungen auf Seiten des Kunden oder auf unsachgemäßer Nutzung.
 
-(3) Für das **Voice-AI-Modul** gilt ergänzend: Die Verfügbarkeit setzt die Verfügbarkeit der Telefonie-Infrastruktur (Easybell) und — sofern Cloud-Pfade genutzt werden — die Verfügbarkeit der externen Sprachverarbeitungs-Schnittstellen voraus (Mistral AI SAS für die Textverarbeitung und/oder Google Cloud Text-to-Speech für die Sprachausgabe). Bei Ausfall eines dieser Dienste kann die Voice AI vorübergehend nicht erreichbar sein bzw. fällt der Anbieter automatisch auf die jeweils lokale Variante zurück, sofern diese aktiv verfügbar ist. Der Kunde ist angehalten, seine Rufnummern-Weiterleitung so zu konfigurieren, dass Anrufe bei Ausfall wieder auf ein menschliches Endgerät des Kunden zurückfallen.
+(3) Für das **Voice-AI-Modul** gilt ergänzend: Die Verfügbarkeit setzt die Verfügbarkeit der Telefonie-Infrastruktur (Easybell) und — sofern Cloud-Pfade genutzt werden — die Verfügbarkeit der externen Sprachverarbeitungs-Schnittstellen voraus (Mistral AI SAS für die Text-Verarbeitung, Google Cloud Text-to-Speech für die Sprachausgabe, Deepgram, Inc. für die Spracherkennung). Bei Ausfall eines dieser Dienste kann die Voice AI vorübergehend nicht erreichbar sein bzw. fällt der Anbieter automatisch auf die jeweils lokale Variante zurück, sofern diese aktiv verfügbar ist. Der Kunde ist angehalten, seine Rufnummern-Weiterleitung so zu konfigurieren, dass Anrufe bei Ausfall wieder auf ein menschliches Endgerät des Kunden zurückfallen.
 
 (4) Der Anbieter ist berechtigt, die Funktionen der Plattform fortzuentwickeln, zu verändern oder einzustellen, sofern dies für den Kunden zumutbar ist und die vertragsgemäße Nutzung nicht wesentlich beeinträchtigt wird.
 
@@ -84,7 +90,7 @@ a) er alle Mitarbeiter und — soweit anwendbar — den Betriebsrat über den Ei
 b) seine Anrufer zu Beginn des Gesprächs durch die Plattform-Ansage über die KI-Natur des Gesprächspartners aufgeklärt werden (Art. 22 Abs. 3 DSGVO);
 c) ihm bekannt ist, dass **keine Audio- oder Transkript-Aufnahme** erfolgt (StGB § 201 wird dadurch gerade nicht verletzt — es findet kein Mithören und kein Mitschnitt statt, sondern eine Echtzeit-Verarbeitung ohne Persistierung).
 
-(2) Die Sprachverarbeitung (LLM) und die Sprach-Ausgabe (TTS) der Voice AI werden vom Anbieter wahlweise lokal auf Anbieter-Infrastruktur in Deutschland oder über genehmigte EU-Cloud-Dienste betrieben (Mistral AI SAS, Paris, für LLM; Google Cloud Text-to-Speech, EU-Multi-Region, für TTS). Die Auswahl trifft der Anbieter nach betrieblichen Gesichtspunkten; **in keinem dieser Modi findet eine Drittlandübermittlung statt**. Einzelheiten regelt § 5 Abs. 6 sowie die Datenschutzerklärung Abschnitt 6.
+(2) Die Sprachverarbeitung (LLM), die Sprach-Ausgabe (TTS) und die Sprach-Erkennung (STT) der Voice AI werden vom Anbieter wahlweise lokal auf Anbieter-Infrastruktur in Deutschland oder über genehmigte EU-Cloud-Dienste betrieben (Mistral AI SAS, Paris, für LLM; Google Cloud Text-to-Speech, EU-Multi-Region, für TTS; Deepgram, Inc. auf dem EU-Endpunkt `api.eu.deepgram.com` für STT). Die Auswahl trifft der Anbieter nach betrieblichen Gesichtspunkten; **in keinem dieser Modi findet eine Drittlandübermittlung statt**. Einzelheiten regelt § 5 Abs. 6 sowie die Datenschutzerklärung Abschnitt 6.
 
 (3) Die **Kundenkartei** (wiederkehrende Anrufer) wird ausschließlich auf der Grundlage einer ausdrücklichen Einwilligung des Anrufers angelegt (Art. 6 Abs. 1 lit. a DSGVO). Der Kunde darf die Plattform nicht so konfigurieren, dass Kartei-Einträge ohne Einwilligung entstehen — dies ist technisch unterbunden.
 
@@ -92,39 +98,59 @@ c) ihm bekannt ist, dass **keine Audio- oder Transkript-Aufnahme** erfolgt (StGB
 
 (5) Die automatisierte Fahrerzuweisung (Auto-Assign) ist eine Entscheidung im Sinne von Art. 22 DSGVO, die für die Durchführung des Fahrauftrags erforderlich ist (Art. 22 Abs. 2 lit. a DSGVO). Der Kunde kann sie jederzeit deaktivieren.
 
-(6) **LLM- und TTS-Auswahl.** Die Voice AI nutzt zur Sprachverarbeitung ein Large Language Model (LLM) und zur Sprach-Ausgabe einen Text-to-Speech-Renderer (TTS). Der Anbieter setzt dafür wahlweise lokale Modelle auf seiner Server-Infrastruktur in Deutschland oder genehmigte EU-Cloud-Dienste ein:
+(5a0) **Einmalige Rückrufnummer.** Die Voice AI kann den Anrufer in zwei klar umrissenen Sonderfällen um eine Rückrufnummer bitten:
 
-a) **LLM:** entweder **lokales LLM** (eigene Hardware, Deutschland) oder **Mistral AI SAS** (Paris, Frankreich, EU);
-b) **TTS:** entweder **lokales TTS** (Qwen-TTS auf eigener Hardware, Deutschland) oder **Google Cloud Text-to-Speech** „Chirp 3 HD" (EU-Multi-Region — Frankfurt/Eemshaven/London).
+a) Wenn zum Anrufzeitpunkt KEIN Fahrer online ist und KEINE Notfallkontakte für eine Live-Weiterleitung hinterlegt sind, brauchen wir eine Nummer, um den Anrufer zu informieren, sobald wieder ein Fahrer frei wird.
+b) Wenn die Zuweisungs-Strategie auf „ETA-bewusst" steht und der nächstgelegene Fahrer noch auf einer anderen Fahrt ist (also keine seriöse Ankunftszeit-Schätzung möglich ist), bietet die Voice AI an, dass der Fahrer den Anrufer kurz anruft, sobald er auf dem Weg ist.
 
-Sämtliche Varianten sind in der Monatspauschale enthalten; **eine separate Kostenweitergabe findet nicht statt**. Der Anbieter darf zwischen lokal und Cloud jeweils unabhängig nach betrieblichen Gesichtspunkten (Verfügbarkeit, Auslastung, Qualität) jederzeit wechseln, ohne den Kunden gesondert zu informieren — alle Varianten sind als Sub-Processor in Anlage 4 der AVV genehmigt und führen zu keiner Drittlandübermittlung im Sinne der Art. 44 ff. DSGVO. Eine Verarbeitung über LLM- oder TTS-Anbieter mit Sitz **außerhalb der EU** findet nicht statt; eine etwaige zukünftige Erweiterung um Drittland-Anbieter würde dem Kunden mit angemessener Vorlaufzeit in Textform mitgeteilt und bedürfte seiner Zustimmung gemäß den Vorgaben der DSGVO.
+In beiden Fällen weist die Voice AI den Anrufer mündlich darauf hin, dass die Nummer **einmalig** verwendet und nach Abschluss des Auftrags **automatisch gelöscht** wird (technisch: Feld `callbackPhone` wird beim Order-`status='completed'`-Übergang auf `null` gesetzt; die Nummer landet nicht in der Auftrags- oder Trip-Historie). Der Kunde stellt sicher, dass seine Fahrer / Disponenten die Nummer ausschließlich für genau diesen Zweck verwenden.
+
+(5a) **Rechnungsfahrten (Rechnungskunden-Kartei).** Der Kunde kann die Annahme von Rechnungsfahrten am Telefon im Verwaltungsbereich aktivieren oder deaktivieren. Bei Aktivierung gilt:
+
+a) Die Voice AI legt **nur dann** einen neuen Rechnungskunden-Eintrag an, wenn der Anrufer der Anlage ausdrücklich zugestimmt hat und alle Pflichtfelder mit ihm einzeln durchgegangen und buchstabiert wurden. KI-erzeugte Einträge erscheinen als „ungeprüft" im Review-Banner; der Kunde verpflichtet sich, diese vor der ersten Rechnungsstellung manuell auf Richtigkeit zu prüfen.
+b) Die Verantwortung für die korrekte Adress- und Steuer-Daten-Pflege der Rechnungskunden liegt beim Kunden (§ 14 UStG, § 14 Abs. 4 UStG zu Pflichtangaben).
+c) Steuer-IdNr. und Kostenstellen werden **bewusst nicht** über die Voice AI erfasst; der Kunde ergänzt sie manuell in der App.
+
+(5b) **Unverbindliche Preis-Schätzung.** Aktiviert der Kunde die optionale Tarif-Tabelle, kann die Voice AI auf ausdrückliche Frage des Anrufers einen **groben Anhaltswert** in Euro nennen. Diese Schätzung ist **rechtlich unverbindlich**; der endgültige Fahrpreis wird stets vom geeichten Taxameter im Fahrzeug bestimmt. Der Kunde stellt sicher, dass die hinterlegten Tarif-Eckdaten (Grundgebühr, km-Preis, Zuschläge) seiner tatsächlichen, ggf. behördlich genehmigten Tariftabelle entsprechen (Pflichtfahrgebiet gemäß § 39 PBefG). Wartezeit-, Stand- und Sondertarife sowie weitere Aufschläge fließen nicht in die Schätzung ein — die Voice AI weist Anrufer ausdrücklich auf den unverbindlichen Charakter hin. Eine Haftung des Anbieters für Abweichungen zwischen Schätzung und Taxameter-Endpreis ist ausgeschlossen.
+
+(5c) **Krankenfahrten.** Die Plattform erkennt Krankenfahrten (Fahrten zum Arzt, ins Krankenhaus, zur Reha, zur Dialyse usw.) als eigenständigen Auftrags-Anlass. Die Voice AI kann eine entsprechende Markierung anhand der Aussagen des Anrufers setzen, ein Disponent kann sie manuell in der App vergeben. Mit der Markierung wird der Auftrag in der Fahrer-App optisch hervorgehoben (lila) und automatisch um einen Standard-Hinweis-Text im Kommentar ergänzt, der den Fahrer an die Mitnahme der ärztlichen Verordnung („Muster 4 Verordnung einer Krankenbeförderung") sowie ggf. der Genehmigung der gesetzlichen Krankenkasse erinnert. Es gilt:
+
+a) Die Voice AI erfragt **ausdrücklich keine** Diagnose, Versichertennummer oder Krankenkassen-Name. Der Kunde stellt seinerseits sicher, dass weder seine Disponenten noch seine Fahrer den Anrufer/Fahrgast nach derartigen Informationen außerhalb des Beförderungs-Anlasses ausfragen (Art. 5 Abs. 1 lit. c DSGVO — Datenminimierung; Art. 9 DSGVO — besondere Datenkategorien).
+b) Die eigentliche Abrechnung mit der gesetzlichen Krankenversicherung sowie die Einholung etwa notwendiger Vorab-Genehmigungen liegen ausschließlich beim Kunden bzw. dem Fahrgast. Die Plattform stellt insoweit weder Pflichtdokumente bereit noch übernimmt sie Korrespondenz mit Krankenkassen.
+c) Der Kunde stellt sicher, dass seine Fahrzeuge und Fahrer für Krankenfahrten geeignet sind (Personenbeförderung mit P-Schein; ggf. besondere Anforderungen seines Kostenträgers). Eine Verpflichtung des Anbieters, solche Voraussetzungen zu prüfen, besteht nicht.
+d) Die Eignung eines konkreten Auftrags als „verordnete Krankenbeförderung gemäß § 60 SGB V" beurteilt allein der behandelnde Arzt durch Ausstellung der Verordnung; die App-seitige Markierung ist eine reine Anlass-Klassifikation und ersetzt keine ärztliche Verordnung.
+
+(6) **LLM-, TTS- und STT-Auswahl.** Die Voice AI nutzt zur Sprachverarbeitung ein Large Language Model (LLM), zur Sprach-Ausgabe einen Text-to-Speech-Renderer (TTS) und zur Sprach-Erkennung ein Speech-to-Text-Modell (STT). Der Anbieter setzt dafür wahlweise lokale Modelle auf seiner Server-Infrastruktur in Deutschland oder genehmigte EU-Cloud-Dienste ein:
+
+a) **LLM:** entweder **lokales LLM** (Qwen-Modelle auf eigener Hardware, Deutschland) oder **Mistral AI SAS** (Paris, Frankreich, EU);
+b) **TTS:** entweder **lokales TTS** (Qwen-TTS auf eigener Hardware, Deutschland) oder **Google Cloud Text-to-Speech** „Chirp 3 HD" (EU-Multi-Region — Frankfurt/Eemshaven/London);
+c) **STT:** entweder **lokales STT** (faster-whisper auf eigener Hardware, Deutschland) oder **Deepgram, Inc.** auf dem EU-Endpunkt `api.eu.deepgram.com` (AWS-EU-Region) — abgesichert über DPA, EU-Standardvertragsklauseln (SCC) und Deepgram-DPF-Zertifizierung; siehe Preisliste Abschnitt 4.6.
+
+Sämtliche Varianten sind in der Monatspauschale enthalten; **eine separate Kostenweitergabe findet nicht statt**. Der Anbieter darf zwischen lokal und Cloud jeweils unabhängig nach betrieblichen Gesichtspunkten (Verfügbarkeit, Auslastung, Qualität) **jederzeit ohne gesonderte Ankündigung** wechseln — alle Varianten sind als Sub-Processor in Anlage 4 der AVV genehmigt und führen bei Nutzung des jeweils vorgesehenen EU-Endpunkts zu keiner Drittlandübermittlung im Sinne der Art. 44 ff. DSGVO. Der Anbieter behält sich ausdrücklich vor, zur betrieblichen Optimierung jederzeit von einer Cloud-Variante auf die entsprechende lokale Variante umzustellen (datenschutzrechtlich für den Kunden vorteilhaft, da Verarbeitung auf Anbieter-Hardware in Deutschland verbleibt). Eine Verarbeitung über LLM-, TTS- oder STT-Anbieter mit Sitz **außerhalb der EU bzw. auf nicht-EU-Endpunkten** findet nicht statt; eine etwaige zukünftige Erweiterung um Drittland-Anbieter würde dem Kunden mit angemessener Vorlaufzeit in Textform mitgeteilt und bedürfte seiner Zustimmung gemäß den Vorgaben der DSGVO.
 
 ---
 
 ## § 6 Entgelte, Zahlungsbedingungen
 
-(1) Die Nutzung der Dispocall App und der Voice AI erfolgt gegen Zahlung der vereinbarten Entgelte gemäß der **aktuellen Preisliste** (Dokument `Preisliste.md`), die Bestandteil des Vertrages ist. Abweichende Vereinbarungen können sich aus dem individuellen Angebot ergeben; im Zweifel geht die Preisliste vor.
+(1) Die Nutzung der Dispocall App und der Voice AI erfolgt gegen Zahlung der in der **aktuellen Preisliste** (Dokument `Preisliste.md`, Version 2.0 vom 26.05.2026 oder neuer) ausgewiesenen Entgelte. Die Preisliste ist Bestandteil des Vertrages. Abweichende Vereinbarungen können sich aus dem individuellen Angebot ergeben; im Zweifel geht die Preisliste vor.
 
-(2) Die Preisliste definiert insbesondere:
+(2) Die Plattform wird in drei Tarifstufen angeboten (Lite, Advanced, Max — Lite zum Zeitpunkt dieses AGB-Stands noch nicht verfügbar). Jeder Tarif umfasst eine monatliche Pauschale, ein Inklusiv-Telefonminuten-Kontingent für die Voice AI sowie einen Mehrverbrauchspreis pro über das Kontingent hinausgehender Telefonminute. Die genauen Werte ergeben sich aus Abschnitt 1.1 der Preisliste.
 
-- Monatliche Pauschale je Firma (Early-Access- bzw. Vollversions-Tarif)
-- Umfang des gewöhnlichen Verbrauchs (Voice-AI-Anrufe, SIP-Minuten, Firestore-Operationen)
-- Regelung ungewöhnlichen Mehrverbrauchs einschließlich Benachrichtigungs- und Klärungsfrist
+(2a) **Mehrverbrauchsregelung.** Überschreitet der Kunde innerhalb eines Abrechnungsmonats das im gewählten Tarif enthaltene Voice-AI-Telefonminuten-Kontingent, wird jede weitere angefangene Minute zum tarifabhängigen Minutenpreis (0,06 € netto bei Advanced, 0,04 € netto bei Max) abgerechnet. Der Mehrverbrauch wird im Folgemonat nachgelagert in Rechnung gestellt.
 
-(2a) **Ungewöhnlicher Mehrverbrauch — Kernregel.** Als gewöhnlicher Verbrauch gilt Infrastruktur-Nutzung **bis zu 50 % über dem Drei-Monats-Durchschnitt aller Produktivkunden derselben Tarifstufe**; dieser ist durch die Monatspauschale abgegolten. Liegt der Verbrauch eines Kunden dauerhaft über dieser Schwelle (z. B. durch ununterbrochen offene SIP-Leitungen, Test-/Lasttraffic ohne Absprache, automatisierte Dauer-Abfragen), gilt folgendes Verfahren — in dieser Reihenfolge:
+- Der Kunde wird automatisch in Textform benachrichtigt bei Erreichen von **80 %** und **100 %** des Inklusivkontingents.
+- Der Kunde kann im Kunden-Dashboard einen **optionalen Mehrverbrauchs-Cap** (Maximalbetrag in Euro pro Monat) hinterlegen; bei Erreichen wird die Voice AI für den laufenden Abrechnungsmonat automatisch deaktiviert und der Kunde in Textform informiert (Details siehe Preisliste Abschnitt 3.3).
+- Die Voice AI wird bei Überschreitung des Inklusivkontingents **ohne** aktiven Cap **nicht automatisch abgeschaltet** — der Betrieb läuft unterbrechungsfrei weiter; Mehrminuten werden zum vereinbarten Minutenpreis berechnet.
 
-a) Der Anbieter informiert den Kunden in Textform über die konkret festgestellte Überschreitung und nennt die betroffenen Verbrauchskategorien;
-b) der Kunde hat **14 Tage** Zeit, die Ursache zu beheben oder eine nachvollziehbare Erläuterung zu geben;
-c) bleibt die Überschreitung danach bestehen, wird der Mehrverbrauch zum **Einkaufspreis zuzüglich 15 % Bearbeitungszuschlag** in Rechnung gestellt;
-d) bei wiederholten oder erheblichen Überschreitungen trotz Abmahnung gilt § 12 Abs. 3 (außerordentliche Kündigung).
+Der Kunde hat jederzeit das Recht, die zu seinem Vertragsverhältnis erhobenen Verbrauchsdaten einzusehen (Verbrauchstransparenz; Preisliste Abschnitt 3.1).
 
-Der Kunde hat jederzeit das Recht, die zu seinem Vertragsverhältnis erhobenen Verbrauchsdaten einzusehen.
+(2b) **Missbräuchliche Nutzung.** Als missbräuchlich gilt Nutzung, die nicht der regulären Auftragsannahme dient — insbesondere dauerhaft geöffnete SIP-Leitungen, Test- oder Lasttraffic ohne Absprache, automatisierte Anrufe zu Testzwecken ohne Rücksprache. Der Anbieter informiert den Kunden in Textform über das festgestellte Muster, setzt eine Klärungsfrist von **14 Tagen**, und ist nach erfolglosem Fristablauf zur außerordentlichen Kündigung gemäß § 12 Abs. 3 berechtigt.
 
-(3) Rechnungen werden monatlich im Voraus für die Grundpauschale und nachgelagert für etwaige Mehrverbrauchs- und Cloud-LLM-Posten gestellt. Zahlungsziel: **14 Tage** nach Rechnungszugang ohne Abzug. Bei Zahlungsverzug gelten die gesetzlichen Verzugszinsen nach § 288 Abs. 2 BGB (für Geschäfte zwischen Unternehmen).
+(3) Rechnungen werden monatlich im Voraus für die Grundpauschale gestellt; Mehrverbrauchs-Posten werden nachgelagert im Folgemonat fakturiert. Zahlungsziel: **14 Tage** nach Rechnungszugang ohne Abzug. Bei Zahlungsverzug gelten die gesetzlichen Verzugszinsen nach § 288 Abs. 2 BGB (für Geschäfte zwischen Unternehmen) sowie die Verzugspauschale nach § 288 Abs. 5 BGB. Mahnkosten werden gemäß den gesetzlichen Vorschriften gesondert berechnet.
 
-(4) Alle Preise verstehen sich zzgl. der gesetzlichen Umsatzsteuer.
+(4) **Alle Preise verstehen sich als Nettopreise zuzüglich der gesetzlichen Umsatzsteuer.** Soweit der Anbieter zum Zeitpunkt der Rechnungsstellung umsatzsteuerfrei (z. B. als Kleinunternehmer gemäß § 19 UStG) ist, weist die Rechnung dies entsprechend aus.
 
-(5) Der Anbieter ist berechtigt, die **Pauschalen** mit einer Ankündigungsfrist von **drei Monaten** zum Beginn eines neuen Vertragszeitraums anzupassen. Bei Erhöhungen von mehr als 10 % gegenüber dem vorherigen Zeitraum steht dem Kunden ein außerordentliches Kündigungsrecht mit einmonatiger Frist ab Wirksamwerden der Erhöhung zu.
+(5) Der Anbieter ist berechtigt, die **Monatspauschalen**, die **Inklusivminuten** und die **Mehrverbrauchs-Minutenpreise** mit einer Ankündigungsfrist von **drei Monaten** zum Beginn eines neuen Vertragszeitraums anzupassen. Bei Erhöhungen von mehr als 10 % gegenüber dem vorherigen Zeitraum steht dem Kunden ein außerordentliches Kündigungsrecht mit einmonatiger Frist ab Wirksamwerden der Erhöhung zu. Während der 12-monatigen Treue-Bonus-Garantie (§ 17 Abs. 7 und Preisliste Abschnitt 1.2) sind Anpassungen der dort genannten Werte ausgeschlossen.
 
 (6) Bleibt der Kunde mit einer Zahlung in Höhe von mindestens zwei Monatsentgelten in Verzug, ist der Anbieter berechtigt, den Zugang zur Plattform nach schriftlicher Mahnung mit einer Frist von 14 Tagen zu sperren, bis der Rückstand ausgeglichen ist. Daten des Kunden bleiben in diesem Fall bis zum Ende einer etwaigen Kündigungsfrist erhalten und werden danach nach § 7 gelöscht.
 
@@ -174,7 +200,7 @@ d) im Umfang einer vom Anbieter übernommenen Garantie.
 
 (3) Im Übrigen ist die Haftung für leicht fahrlässig verursachte Schäden ausgeschlossen.
 
-(4) Die Haftung für **entgangene Gewinne**, **ausgebliebene Fahrten**, **verpasste Aufträge** oder **Reputationsschäden** ist, soweit rechtlich zulässig, ausgeschlossen — insbesondere wenn diese auf Ausfällen von Telefonie-Infrastruktur, LLM-API oder Internet-Verbindungen beruhen, die außerhalb der Verantwortungssphäre des Anbieters liegen.
+(4) Die Haftung für **entgangene Gewinne**, **ausgebliebene Fahrten**, **verpasste Aufträge** oder **Reputationsschäden** ist, soweit rechtlich zulässig, ausgeschlossen — insbesondere wenn diese auf Ausfällen von Telefonie-Infrastruktur, LLM-/TTS-/STT-API oder Internet-Verbindungen beruhen, die außerhalb der Verantwortungssphäre des Anbieters liegen.
 
 (5) Die Haftung für Datenverlust ist auf den Aufwand beschränkt, der bei ordnungsgemäßer, regelmäßiger Datensicherung durch den Kunden zur Wiederherstellung erforderlich gewesen wäre. Google Cloud Firestore betreibt automatische Mehrfach-Replikation; eine darüber hinausgehende Sicherungspflicht trifft den Anbieter nicht.
 
@@ -220,8 +246,9 @@ c) aufgrund Gesetzes, behördlicher oder gerichtlicher Anordnung offengelegt wer
 
 a) Zahlungsverzug gemäß § 6 Abs. 6;
 b) wiederholtem Verstoß des Kunden gegen seine Mitwirkungspflichten aus § 4 trotz schriftlicher Abmahnung;
-c) Nutzung der Plattform für rechtswidrige Zwecke;
-d) Insolvenz des Kunden.
+c) missbräuchlicher Nutzung gemäß § 6 Abs. 2b trotz Abmahnung;
+d) Nutzung der Plattform für rechtswidrige Zwecke;
+e) Insolvenz des Kunden.
 
 (4) Nach Vertragsbeendigung hat der Kunde **30 Tage Zeit**, seine Daten in einem maschinenlesbaren Format zu exportieren (§ 13). Anschließend werden die Daten — soweit keine gesetzliche Aufbewahrungspflicht besteht — gelöscht. Für Daten, die der gesetzlichen Aufbewahrung unterliegen, gilt das Zwei-Stufen-Modell nach § 7 auch nach Vertragsende weiter; der Anbieter führt die Aufbewahrung bis zum gesetzlich erforderlichen Löschzeitpunkt fort.
 
@@ -239,12 +266,13 @@ d) Insolvenz des Kunden.
 
 (1) Der Anbieter setzt zur Erbringung seiner Leistungen Unterauftragnehmer ein. Die aktuelle Liste der Unterauftragsverarbeiter ist Bestandteil der AVV (Anlage 4) und umfasst insbesondere:
 
-- **Google Ireland Ltd.** — (a) Firebase / Google Cloud (europe-west3 Frankfurt) für Datenbank, Authentifizierung und Cloud KMS; (b) Google Cloud Text-to-Speech (Chirp 3 HD, EU-Multi-Region) für die Sprach-Ausgabe der Voice AI, alternativ zur lokalen TTS-Inferenz; (c) Google Cloud Storage (europe-west3 Frankfurt) zur 30-tägigen Bereitstellung des bei Vertragsende erzeugten Daten-Export-ZIPs (siehe § 13)
+- **Google Ireland Ltd.** — (a) Firebase / Google Cloud (europe-west3 Frankfurt) für Datenbank, Authentifizierung und Cloud KMS; (b) Google Cloud Text-to-Speech (Chirp 3 HD, EU-Multi-Region) für die Sprach-Ausgabe der Voice AI, alternativ zur lokalen TTS-Inferenz; (c) Google Cloud Storage (europe-west3 Frankfurt) zur 30-tägigen Bereitstellung des bei Vertragsende erzeugten Daten-Export-ZIPs (siehe § 13); (d) Firebase Cloud Functions (europe-west1) für zeitgesteuerte Hintergrund-Jobs
 - **Mistral AI SAS** (Paris, Frankreich) — LLM-Inferenz für die Voice AI, alternativ zur lokalen LLM-Inferenz; **kein** Training mit übermittelten Daten gemäß Mistral-Nutzungsbedingungen für zahlende Kunden
+- **Deepgram, Inc.** (San Francisco, USA — mit dediziertem EU-Endpunkt `api.eu.deepgram.com`, AWS-EU-Region) — STT-Spracherkennung für die Voice AI, alternativ zur lokalen Whisper-STT-Inferenz; Datenschutz abgesichert über DPA, EU-Standardvertragsklauseln (SCC) und EU-U.S. Data Privacy Framework (DPF); **kein** Training mit übermittelten Audiodaten; **keine** Persistierung über die Echtzeit-Transkription hinaus
 - **Easybell GmbH** (Deutschland) — SIP-Telefonie-Provider für die Inbound-Rufnummer der Voice AI
 - **Sendinblue SAS** („Brevo", Paris, Frankreich) — Versand transaktionaler E-Mails (Bestätigungen, Lösch-Anträge, Daten-Export-Links); ausschließlich EU-Server; keine Verwendung der übermittelten Empfänger- oder Inhaltsdaten zu eigenen Marketing-Zwecken oder zum Training
 
-Alle Verarbeitungen finden in der Europäischen Union statt; es findet keine Drittlandübermittlung im Sinne der Art. 44 ff. DSGVO statt.
+Alle Verarbeitungen finden bei Nutzung der jeweils vorgesehenen EU-Endpunkte ausschließlich in der Europäischen Union statt; bei Deepgram bleibt das Restrisiko eines etwaigen US-Zugriffs zusätzlich durch SCC und DPF abgesichert.
 
 (2) Der Anbieter informiert den Kunden rechtzeitig (mindestens 30 Tage im Voraus) über geplante Änderungen oder Ergänzungen der Liste. Der Kunde kann einer Änderung aus wichtigem Grund widersprechen; Einzelheiten regelt die AVV.
 
@@ -278,7 +306,7 @@ Alle Verarbeitungen finden in der Europäischen Union statt; es findet keine Dri
 
 ## § 17 Besondere Bedingungen für Early-Access-Kunden (Beta-/Testphase)
 
-(1) Die Plattform befindet sich zum Zeitpunkt dieser AGB-Fassung in einer **Early-Access-Phase**. Kunden, die die Plattform in dieser Phase nutzen („Early-Access-Kunden"), erhalten einen vergünstigten Basispreis gemäß Preisliste (derzeit 500 € netto/Monat) und erkennen im Gegenzug die nachfolgenden Einschränkungen ausdrücklich an. Der genaue Preis der Vollversion wird zum Zeitpunkt der Veröffentlichung bekannt gegeben (siehe Abschnitt 1.3 der Preisliste).
+(1) Die Plattform befindet sich zum Zeitpunkt dieser AGB-Fassung in einer **Early-Access-Phase**. Kunden, die die Plattform in dieser Phase nutzen („Early-Access-Kunden"), nutzen sie zu den in der Preisliste in Abschnitt 1.1 ausgewiesenen Early-Access-Konditionen (Advanced 700 € netto / 6.000 Min., Max 1.300 € netto / 24.000 Min.) und erkennen im Gegenzug die nachfolgenden Einschränkungen ausdrücklich an. Der genaue Preis der nachfolgenden **Vollversion** wird zum Zeitpunkt der Veröffentlichung bekannt gegeben (siehe Abschnitt 1.2 der Preisliste).
 
 (2) **Reduziertes Service-Level.** Für Early-Access-Kunden gelten die Verfügbarkeitszusagen aus § 3 Abs. 1 **nicht**. Stattdessen gilt:
 
@@ -303,14 +331,15 @@ b) Ansprüche wegen **entgangener Gewinne** sowie wegen **nicht durchgeführter 
 
 (6) **Datenschutzrechtlich** bleibt die Early-Access-Phase vollumfänglich DSGVO-konform. Das Zwei-Stufen-Löschkonzept, die Mandantentrennung und die KMS-Verschlüsselung der Kundenkartei gelten unverändert (siehe Datenschutzerklärung und AVV). Die Early-Access-Klausel betrifft ausschließlich **technische Verfügbarkeit und gewerbliche Haftung** — nicht die Rechte betroffener Personen.
 
-(7) **Ende der Early-Access-Phase und Treue-Bonus.** Der Anbieter zeigt dem Kunden den Übergang in den regulären Produktivbetrieb mindestens **vier Wochen im Voraus** in Textform an und teilt zugleich den endgültigen Vollversionspreis mit. Für Early-Access-Kunden, die zu diesem Zeitpunkt aktiver Vertragspartner sind und ihren Vertrag nicht kündigen, gilt darüber hinaus folgende **Preisgarantie**:
+(7) **Ende der Early-Access-Phase und Treue-Bonus.** Der Anbieter zeigt dem Kunden den Übergang in den regulären Produktivbetrieb mindestens **vier Wochen im Voraus** in Textform an und teilt zugleich die endgültigen Vollversionspreise mit. Für Early-Access-Kunden, die zu diesem Zeitpunkt aktiver Vertragspartner sind und ihren Vertrag nicht kündigen, gilt darüber hinaus folgende **Preisgarantie**:
 
-a) Der zum Zeitpunkt der Veröffentlichung gültige Early-Access-Basispreis (derzeit 500 € netto/Monat) bleibt für **mindestens 12 Monate ab dem Datum der Vollversions-Veröffentlichung** unverändert bestehen, sofern der Kunde die Plattform in dieser Zeit weiter nutzt und nicht in Zahlungsverzug nach § 6 Abs. 6 gerät. Während dieser 12 Monate ist eine Anpassung der Monatspauschale durch den Anbieter ausgeschlossen.
+a) Die zum Zeitpunkt der Veröffentlichung gültigen Early-Access-Konditionen der gewählten Tarifstufe (Advanced bzw. Max — Monatspauschale, Inklusivminuten und Mehrverbrauchspreis gemäß Preisliste Abschnitt 1.1) bleiben für **12 Monate ab dem Datum der Vollversions-Veröffentlichung** unverändert bestehen, sofern der Kunde die Plattform in dieser Zeit weiter nutzt und nicht in Zahlungsverzug nach § 6 Abs. 6 gerät. Während dieser 12 Monate ist eine Anpassung dieser Werte durch den Anbieter ausgeschlossen.
 b) Alternativ kann der Kunde innerhalb der Ankündigungsfrist (siehe oben) erklären, dass er **stattdessen** den regulären Vollversions-Tarif wählen möchte (z. B. um zusätzliche Vollversions-Funktionen oder die Vollversions-SLA in Anspruch zu nehmen). Der Wechsel wird zum ersten Kalendertag des Folgemonats wirksam.
 c) Erklärt der Kunde innerhalb der Frist nichts, gilt die Preisgarantie nach lit. a) automatisch — der Kunde wird in der Ankündigung gesondert darauf hingewiesen.
-d) Nach Ablauf der 12-Monats-Garantie gilt § 6 Abs. 5 unverändert (Preisanpassung mit drei Monaten Vorlauf, Sonderkündigungsrecht ab 10 % Erhöhung).
-e) Etwaige nutzungsabhängige Posten (Mehrverbrauch nach § 6 Abs. 2a) sind von der Preisgarantie nicht umfasst und bleiben in tatsächlicher Höhe abrechenbar.
-f) Bei vorzeitiger Einstellung des Plattformbetriebs durch den Anbieter werden anteilig im Voraus gezahlte Beträge erstattet; weitergehende Schadensersatzansprüche bleiben unberührt.
+d) Ein Tarifwechsel innerhalb der 12-Monats-Garantie (z. B. Advanced → Max) hebt die Garantie für den bisherigen Tarif auf; der neu gewählte Tarif gilt zum dann gültigen Marktpreis.
+e) Nach Ablauf der 12-Monats-Garantie gilt § 6 Abs. 5 unverändert (Preisanpassung mit drei Monaten Vorlauf, Sonderkündigungsrecht ab 10 % Erhöhung).
+f) Etwaige nutzungsabhängige Posten (Mehrverbrauch nach § 6 Abs. 2a) sind von der Preisgarantie nicht umfasst und bleiben in tatsächlicher Höhe abrechenbar.
+g) Bei vorzeitiger Einstellung des Plattformbetriebs durch den Anbieter werden anteilig im Voraus gezahlte Beträge erstattet; weitergehende Schadensersatzansprüche bleiben unberührt.
 
 (8) **Vertrauliche Behandlung von Vorab-Informationen.** Der Early-Access-Kunde behandelt Informationen über nicht-öffentliche Plattform-Funktionen, Roadmap, Bugs und Testergebnisse vertraulich gemäß § 11. Öffentliche Darstellungen (Presse, Social Media, Konkurrenzkommunikation) sind ohne vorherige schriftliche Zustimmung des Anbieters nicht zulässig.
 
