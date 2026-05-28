@@ -1,6 +1,6 @@
 # Datenschutzerklärung Dispocall
 
-*Stand: 27.05.2026*
+*Stand: 29.05.2026*
 
 Diese Datenschutzerklärung informiert Sie über die Verarbeitung personenbezogener Daten bei der Nutzung der Software-as-a-Service-Plattform **Dispocall** einschließlich des optionalen Telefon-KI-Moduls **Voice AI**.
 
