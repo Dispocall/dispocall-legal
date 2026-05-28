@@ -121,6 +121,19 @@ Wenn Sie das Kontaktformular auf der Website `dispocall.de` (bzw. `staging.dispo
 
 **Ihre Rechte:** Sie können Auskunft, Berichtigung, Löschung oder Widerspruch jederzeit unter den in Abschnitt 7 genannten Adressen geltend machen.
 
+### 2.9 Kunden-Dashboard (Login & lokale Speicherung)
+
+Das Verbrauchs-Dashboard unter `dashboard.dispocall.de` ermöglicht angemeldeten Firmenkunden die Einsicht ihres Voice-AI-Verbrauchs und die Konfiguration des Mehrverbrauchs-Caps.
+
+| Datenkategorie | Zweck | Speicherort / -dauer |
+|---|---|---|
+| E-Mail + Passwort (zur Anmeldung) | Authentifizierung über Firebase Authentication | Passwort wird ausschließlich als Hash bei Google Firebase verarbeitet (siehe Abschnitt 5) |
+| Anmelde-Token (Firebase ID- + Refresh-Token) | Aufrechterhaltung der Sitzung, damit der Nutzer nicht bei jedem Seitenaufruf erneut sein Passwort eingeben muss | **Lokal im Browser** des Nutzers (IndexedDB). Bei „Angemeldet bleiben" aktiviert: bis zur Abmeldung. Andernfalls: nur bis zum Schließen des Browser-Tabs. |
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Vertragsdurchführung — Zugang zum gebuchten Dienst). Die lokale Speicherung des Anmelde-Tokens ist **technisch notwendig** im Sinne von § 25 Abs. 2 Nr. 2 TTDSG (vom Nutzer ausdrücklich gewünschter Login-Dienst) und bedarf daher **keiner gesonderten Cookie-Einwilligung**. Es werden **keine** Tracking-Cookies, Werbe-IDs oder Analysedienste eingesetzt.
+
+Der Nutzer entscheidet beim Login selbst über die Sitzungsdauer („Angemeldet bleiben"-Schalter). Eine Abmeldung (Button „Abmelden") entfernt das lokal gespeicherte Token unverzüglich und vollständig.
+
 ### 2.6 Krankenfahrten
 
 Wünscht ein Anrufer eine Krankenfahrt (z.B. Fahrt zum Arzt, ins Krankenhaus, zur Reha, zur Dialyse), wird der Auftrag mit der Markierung **„Krankenfahrt"** (technisches Boolean-Flag `isKranken=true`) und einem kurzen Standard-Hinweis-Text im Kommentar-Feld erstellt („Bitte die ärztliche Verordnung Muster 4 sowie ggf. die Genehmigung der Krankenkasse mitgeben."). Der Fahrer sieht den Auftrag in der App lila hervorgehoben.
