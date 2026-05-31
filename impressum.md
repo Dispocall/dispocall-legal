@@ -21,12 +21,6 @@ Gewerbeanmeldung; das Impressum wird zu diesem Zeitpunkt um Handelsregister-
 Eintrag, Umsatzsteuer-Identifikationsnummer und weitere gesetzlich
 geforderte Angaben ergänzt.
 
-## Streitschlichtung
-
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung
-(OS) bereit: https://ec.europa.eu/consumers/odr. Verbraucher sind keine
-Vertragspartner unserer B2B-Plattform.
-
 ## Haftungsausschluss
 
 Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung
